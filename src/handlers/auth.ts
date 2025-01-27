@@ -1,9 +1,9 @@
-import { UserRepository } from 'sn-mongo-rml';
 import { HttpStatusCode } from 'axios';
 import { Handler } from 'sn-types-backend';
 import { IUser } from '@src/types/user';
 import { comparePassword } from '@utils/password';
 import { CONFIG } from '@src/config';
+import { UserRepository } from '@repository/user';
 
 const { BASE_URL, DB_NAME } = CONFIG;
 
