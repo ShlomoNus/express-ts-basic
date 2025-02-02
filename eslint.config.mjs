@@ -13,7 +13,7 @@ export default tseslint.config(
         },
     },
     {
-        ignores: ['dist', 'node_modules', 'coverage', 'eslint.config.js', 'drizzle'],
+        ignores: ['dist', 'node_modules', 'coverage'],
     },
     js.configs.recommended,
     ...tseslint.configs.recommended,
